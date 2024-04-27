@@ -1,23 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   display: flex;
   justify-content: center;
-  background-color: #2D3329;
+  background-color: #2d3329;
 }
 
-h1{
+h1 {
   text-align: center;
   color: white;
   margin-top: 50px;
 }
 
-.container{
-  background-color: #2D3329;
-  
+.container {
+  background-color: #2d3329;
 }
 
 .informacoes {
@@ -27,7 +26,7 @@ h1{
   padding: 10px;
 }
 
-.informacoes input{
+.informacoes input {
   width: 300px;
   height: 40px;
   border-radius: 10px;
@@ -35,30 +34,30 @@ h1{
 }
 
 .informacoes button {
-  background-color: rgb(40, 39, 39);
-  color: white;
+  background-color: white;
+  color: black;
   border-radius: 50px;
   width: 50px;
   height: 50px;
-  transition: .4s; 
+  transition: 0.4s;
 }
 
-.informacoes button:hover{
-  background-color: rgb(94, 93, 93);
+.informacoes button:hover {
+  background-color: whitesmoke;
 }
 
-.tarefas{
+.tarefas {
   padding: 15px;
 }
 
-#to-do-list{
+#to-do-list {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 0;
 }
 
-#to-do-list li{
+#to-do-list li {
   list-style: none;
   font-size: 1.4rem;
   text-transform: capitalize;
@@ -68,14 +67,14 @@ h1{
   color: white;
 }
 
-#to-do-list li:hover{
+#to-do-list li:hover {
   background-color: rgb(17, 17, 17);
-  transition: .4s;
+  transition: 0.4s;
   border-radius: 1rem;
   padding-left: 1rem;
 }
 
-#btn-ok{
+#btn-ok {
   background-color: rgb(4, 247, 4);
   border-radius: 50px;
   width: 40px;
@@ -83,12 +82,9 @@ h1{
   color: white;
   font-size: 1rem;
   cursor: pointer;
-  transition: .4s;
+  transition: 0.4s;
 }
 
-#btn-ok:hover{
+#btn-ok:hover {
   background-color: green;
 }
-
-
-
